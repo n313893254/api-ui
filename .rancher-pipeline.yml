@@ -1,0 +1,8 @@
+stages:
+- name: sdfdf
+  steps:
+  - runScriptConfig:
+      image: gcc:latest
+      shellScript: sf
+timeout: 60
+notification: {}
